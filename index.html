@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="F-22 Raptor, o maioral">
+    <meta name="author" content="João Vinícius Guimarães Vieira">
+    <meta name="keywords" content="caça, USAF, F-22 Raptor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/pag-1.css">
+</head>
+<body>
+    <header>
+        <h1 class="texto-titulo">O melhor caça de 5° geração!</h1>
+            <a id="a-aleatorio" onclick="direcionar()" target="_blank">Clique aqui para saber mais!</a>
+    </header>
+
+    <div class="div-corpo">
+        <img id="imagem-caca" src="Imagens/F22 - O MAIS FODA (sem fundo).jpg" alt="Imagem F-22"/>
+    </div>
+
+    <footer>
+        <a id="proxima-pagina" class="paginacao" href="pag-2.html">
+            <div class="div-paginacao">Próxima página</div>
+        </a>
+    </footer>
+</body>
+
+<script>
+    urls = ["https://pt.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor", "https://www.lockheedmartin.com/en-us/products/f-22.html", "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104506/f-22-raptor/"]
+    function direcionar() {
+        let urlAleatorio = urls[Math.floor(Math.random() * urls.length)]
+
+        document.getElementById("a-aleatorio").href = urlAleatorio
+    }
+
+    direcionar()
+</script>
+</html>

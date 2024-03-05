@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.image-header {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    transform: scaleX(-1);
+}
+.div-header-titulo {
+    position: absolute;
+    height: 100%;
+    width: 78%;
+    font-family: 'Trebuchet MS';
+    color: gray;
+}
+.titulo-caca-header {
+    
+}
