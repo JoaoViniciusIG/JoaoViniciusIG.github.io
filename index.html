@@ -5,26 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PC Peças</title>
     <link rel="stylesheet" href="CSS/style_index.css">
-    <link rel="icon" href="Img/icon-pc.ico">
+    <link rel="stylesheet" href="CSS/style_indexHeader.css">
+    <link rel="stylesheet" href="CSS/style_indexBody.css">
+    <link rel="icon" href="Img/img-logo-icone.ico">
 </head>
 <body>
     <header>
-        <img id="img-header-logo" src="Img/icon-pc.ico", alt="Logo PC Parts">
+        <img id="img-header-logo" src="Img/img-logo.png", alt="Logo PC Parts">
         <nav id="nav-header">
-            <div class="div-a-header"><a class="a-header">Processadores</a></div>
-            <div class="div-a-header"><a class="a-header">Placas-Mãe</a></div>
-            <div class="div-a-header"><a class="a-header">Placas de Vídeo</a></div>
-            <div class="div-a-header"><a class="a-header">Memórias RAM</a></div>
-            <div class="div-a-header"><a class="a-header">Fontes</a></div>
+            <div class="div-a-header"><a class="a-header" href="#section-processador">Processadores</a></div>
+            <div class="div-a-header"><a class="a-header" href="#section-placamae">Placas-Mãe</a></div>
+            <div class="div-a-header"><a class="a-header" href="#section-placavideo">Placas de Vídeo</a></div>
+            <div class="div-a-header"><a class="a-header" href="#section-ram">Memórias RAM</a></div>
         </nav>
     </header>
 
-    <section class="section-content">
-        <h1>Processadores</h1>
+    <section id="section-processador" class="section-content">
+        <h1 class="section-title">Processadores</h1>
+        <div class="div-section-img div-master-section">
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-intel.jpg" alt="Processadores Intel">
+            
+                <h2 class="text-section-img-over">Intel</h2>
+            </div>
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-amd.jpg" alt="Processadores AMD">
+
+                <h2 class="text-section-img-over">AMD</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-placamae" class="section-content">
+        <h1 class="section-title">Placas-Mãe</h1>
+        <div class="div-section-img div-master-section">
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-asus-rog.png" alt="Placas-Mãe ASUS">
+            
+                <h2 class="text-section-img-over">ASUS</h2>
+            </div>
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-gigabyte-aorus.jpg" alt="Placas-Mãe Gigabyte">
+
+                <h2 class="text-section-img-over">Gigabyte</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-placavideo" class="section-content">
+        <h1 class="section-title">Placas de Vídeo</h1>
+        <div class="div-section-img div-master-section">
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-nvidia.jpg" alt="Placas de Vídeo NVIDIA">
+            
+                <h2 class="text-section-img-over">NVIDIA</h2>
+            </div>
+            <div class="div-section-img">
+                <img class="img-section-grande" src="Img/img-amd-2.jpg" alt="Placas de Vídeo AMD">
+
+                <h2 class="text-section-img-over">AMD</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-ram" class="section-content">
+        <h1 class="section-title">Memórias RAM</h1>
+        <div class="div-section-img div-master-section">
+            <div class="div-section-img div-img-section-son">
+                <img class="img-section-grande" src="Img/img-kingston.jpg" alt="Memórias RAM Kingston">
+            
+                <h2 id="title-img-kingston" class="text-section-img-over">Kingston</h2>
+            </div>
+            <div class="div-section-img div-img-section-son">
+                <img class="img-section-grande" src="Img/img-corsair.png" alt="Memórias RAM Corsair">
+
+                <h2 class="text-section-img-over">Corsair</h2>
+            </div>
+        </div>
     </section>
 
     <footer>
-
+        <div class="div-footer-column">
+            <img alt="Logo PC Peças">
+        </div>
     </footer>
 </body>
 </html>
