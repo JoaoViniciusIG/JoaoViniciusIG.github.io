@@ -1,0 +1,76 @@
+footer {
+    display: flex;
+    background-color: brown;
+    height: 40vh;
+    padding: 0 7%;
+}
+
+#img-logo-footer {
+    width: 100%
+}
+
+.div-footer-column {
+    display: flex;
+    align-items: center;
+}
+
+#footer-column-a {
+    width: 12%;
+    background-color: green;
+}
+
+#footer-column-b {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 3%;
+    background-color: red;
+}
+
+.footer-row {
+    width: 100%;
+    padding: 0 2%;
+}
+
+#footer-row-a {
+
+}
+
+
+#footer-row-b {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    border-top: 2px solid gray;
+}
+
+.text-footer {
+    font-family: "Trebuchet MS";
+    font-size: 80%;
+    margin: 0;
+}
+
+.a-icon-footer {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.h3-footer {
+    font-size: 150%;
+    margin: 0;
+}
+
+.footer-row-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+.footer-column-row-a {
+    width: 30%;
+    height: 100%;
+}

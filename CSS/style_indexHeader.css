@@ -9,7 +9,13 @@ header {
 }
 
 #img-header-logo {
+    height: 100%;
+}
+
+#a-logo-index {
+    display: flex;
     height: 80%;
+    align-items: center;
 }
 
 #nav-header {
