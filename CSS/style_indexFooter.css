@@ -1,7 +1,7 @@
 footer {
     display: flex;
-    background-color: brown;
-    height: 40vh;
+    background-color: #c71c10;
+    height: 35vh;
     padding: 0 7%;
 }
 
@@ -16,7 +16,6 @@ footer {
 
 #footer-column-a {
     width: 12%;
-    background-color: green;
 }
 
 #footer-column-b {
@@ -24,7 +23,6 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     padding: 0 3%;
-    background-color: red;
 }
 
 .footer-row {
@@ -33,9 +31,9 @@ footer {
 }
 
 #footer-row-a {
-
+    display: flex;
+    padding-top: 2%;
 }
-
 
 #footer-row-b {
     display: flex;
@@ -44,9 +42,9 @@ footer {
     border-top: 2px solid gray;
 }
 
-.text-footer {
+.text-footer-small {
     font-family: "Trebuchet MS";
-    font-size: 80%;
+    font-size: .75vw;
     margin: 0;
 }
 
@@ -54,23 +52,63 @@ footer {
     text-decoration: none;
     color: black;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 15px 0 1px;
 }
 
 .h3-footer {
-    font-size: 150%;
-    margin: 0;
+    font-family: "Trebuchet MS";
+    width: 100%;
+    font-size: 1.2vw;
+    margin-bottom: 20px;
 }
 
 .footer-row-info {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 10%;
     width: 100%;
+    margin: 0;
+}
+
+.footer-row-info:first-child {
+    margin-bottom: 20%;
 }
 
 .footer-column-row-a {
-    width: 30%;
+    width: 20%;
     height: 100%;
+    margin-right: 7%;
+}
+
+#div-redirect-master {
+    display: flex;
+}
+
+.div-redirect-company {
+    width: 50%;
+    display: flex;
+    height: min-content;
+    flex-wrap: wrap;
+}
+.a-redirect-company {
+    font-family: "Trebuchet MS";
+    display: flex;
+    align-items: center;
+    width: min-content;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--color-WABC);
+    margin-right: 50%;
+    text-wrap: nowrap;
+    font-size: .8vw;
+}
+
+.a-redirect-company:hover {
+    border-bottom-color: black;
+}
+
+.a-redirect-company svg {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
 }
