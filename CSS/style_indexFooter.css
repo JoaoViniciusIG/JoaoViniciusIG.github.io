@@ -1,0 +1,123 @@
+footer {
+    display: flex;
+    background-color: var(--color-background-footer);
+    height: min-content;
+    padding: 0 7% 1% 7%;
+}
+
+#img-logo-footer {
+    width: 100%
+}
+
+.div-footer-column {
+    display: flex;
+    align-items: center;
+}
+
+#footer-column-a {
+    width: 12%;
+}
+
+#footer-column-b {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 3%;
+}
+
+.footer-row {
+    width: 100%;
+    padding: 0 2%;
+}
+
+#footer-row-a {
+    display: flex;
+    padding-top: 2%;
+}
+
+#footer-row-b {
+    display: flex;
+    align-items: center;
+    height: min-content;
+    border-top: 2px solid var(--color-content-2-footer);
+    margin-top: 1%;
+    padding-top: 2%;
+}
+
+.text-footer-small {
+    font-family: "Trebuchet MS";
+    font-size: .75vw;
+    margin: 0;
+    color: var(--color-content-1-footer);
+}
+
+.a-icon-footer {
+    text-decoration: none;
+    color: var(--color-content-1-footer);
+    align-items: center;
+    margin: 0 10% 0 1px;
+}
+
+.a-icon-footer svg {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.h3-footer {
+    color: var(--color-content-1-footer);
+    font-family: "Trebuchet MS";
+    width: 100%;
+    font-size: 1.2vw;
+    margin-bottom: 10%;
+}
+
+.footer-row-info {
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-row-info:first-child {
+    margin-bottom: 20%;
+}
+
+.footer-column-row-a {
+    width: 20%;
+    height: 100%;
+    margin-right: 7%;
+}
+
+#div-redirect-master {
+    display: flex;
+}
+
+.div-redirect-company {
+    width: 50%;
+    display: flex;
+    height: min-content;
+    flex-wrap: wrap;
+}
+.a-redirect-company {
+    font-family: "Trebuchet MS";
+    display: flex;
+    align-items: center;
+    width: min-content;
+    text-decoration: none;
+    color: var(--color-content-1-footer);
+    cursor: pointer;
+    margin-bottom: 20%;
+    border-bottom: 2px solid var(--color-WABC);
+    margin-right: 50%;
+    text-wrap: nowrap;
+    font-size: .8vw;
+}
+
+.a-redirect-company:hover {
+    border-bottom-color: var(--color-content-1-footer);
+}
+
+.a-redirect-company svg {
+    margin-right: 10px;
+    height: 1.1vw;
+    width: 1.1vw;
+}
