@@ -1,0 +1,19 @@
+#footer-div-master {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--color-background-emphasis);
+    border-top: 2px solid var(--color-border);
+}
+
+
+.footer-text-title {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.footer-icons {
+    color: var(--color-icons);
+    width: 14px;
+}

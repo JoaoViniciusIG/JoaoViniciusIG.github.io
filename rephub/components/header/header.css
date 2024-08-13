@@ -1,0 +1,22 @@
+#header-div-master {
+    background-color: var(--color-background-emphasis);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    width: calc(100% - 30px);
+    height: 7vh;
+
+    border-bottom: 2px solid var(--color-border);
+}
+
+.header-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    height: 100%;
+}
