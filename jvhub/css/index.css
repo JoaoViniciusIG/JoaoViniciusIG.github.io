@@ -1,0 +1,5 @@
+html, body {
+    width: calc(100% - 10px);
+    background-color: var(--color-background-primary);
+    padding: 4px;
+}
