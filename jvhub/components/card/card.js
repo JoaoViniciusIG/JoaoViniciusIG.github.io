@@ -24,7 +24,7 @@ class Card extends HTMLElement {
                 <div class="card-div-content">
                     <div class="card-div-content-title">
                         <h2 class="text-title text-extra-light">${projectTitle}</h2>
-                        <h3 class="text-subtitle text-extra-light"></h3>
+                        <h3 class="text-subtitle text-extra-light">0000</h3>
                     </div>
 
                     <div class="card-div-content-social">

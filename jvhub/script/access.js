@@ -1,7 +1,9 @@
-import request from 'request';
-
 function accessCard() {
-    let res = request.get("https://api.counterapi.dev/v1/jvhubifro2024/pcpecas/").response;
+    fetch("https://api.counterapi.dev/v1/jvhubifro2024/pcpecas/")
+        .then(async (res) => {
+            const responseContent = await res.json();
 
-    console.log(res);
+            console.log(responseContent.count)
+            return responseContent.count
+        })
 }
