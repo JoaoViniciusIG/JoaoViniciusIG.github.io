@@ -7,6 +7,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin-bottom: 5vh;
 }
 
 #header-div-user {
@@ -24,6 +26,7 @@
     color: var(--color-text-primary)
 }
 
-.teste {
+.log-out-icon {
+    width: 20px;
     color: white;
 }

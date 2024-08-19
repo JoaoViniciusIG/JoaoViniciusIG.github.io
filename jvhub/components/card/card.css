@@ -1,0 +1,72 @@
+#card-div-master {
+    width: calc(100% - 20px);
+    background-color: var(--color-background-secondary);
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 400px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-div-img-preview {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    border: 2px solid var(--color-border);
+}
+
+.card-img-preview {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-div-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: flex-end;
+    text-align: end;
+    color: var(--color-text-primary);
+}
+
+.card-div-content-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.text-extra-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.text-title {
+    font-size: 25px;
+}
+
+.text-subtitle {
+    font-size: 15px;
+}
+
+.card-div-content-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.text-content {
+    font-size: 14px;
+}
+
+.card-social-icons {
+    width: 15px;
+}
+
+.card-social-a {
+    color: var(--color-icons-primary);
+}
