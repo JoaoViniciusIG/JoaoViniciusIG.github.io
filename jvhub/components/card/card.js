@@ -9,14 +9,13 @@ class Card extends HTMLElement {
               projectCategory = self.getAttribute("category"),
               projectAccessCounterName = self.getAttribute("counter-name"),
               directoryName = self.getAttribute("directory-name");
-    
-        
 
         this.innerHTML = `
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
             <link rel="stylesheet" href="./jvhub/components/card/card.css"/>
+            <script src="./jvhub/script/access.js"></script>
 
-            <div id="card-div-master" onClick="accessCard()">
+            <div id="card-div-master" onClick="accessCard('${projectAccessCounterName}', '${directoryName}')">
                 <div class="card-div-img-preview">
                     <img class="card-img-preview" src="./jvhub/assets/img-preview/${imgPreviewName}.png" alt="Preview ${projectTitle}"/>
                 </div>
@@ -24,7 +23,7 @@ class Card extends HTMLElement {
                 <div class="card-div-content">
                     <div class="card-div-content-title">
                         <h2 class="text-title text-extra-light">${projectTitle}</h2>
-                        <h3 class="text-subtitle text-extra-light">0000</h3>
+                        <h3 id="text-counter-${projectAccessCounterName}" class="text-subtitle text-extra-light">0000</h3>
                     </div>
 
                     <div class="card-div-content-social">
@@ -37,6 +36,7 @@ class Card extends HTMLElement {
                 </div>
             </div>
         `
+        getAccessCardNum(`text-counter-${projectAccessCounterName}`, projectAccessCounterName)
     }
 }
 
