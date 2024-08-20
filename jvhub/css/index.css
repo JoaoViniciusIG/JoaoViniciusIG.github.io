@@ -2,4 +2,41 @@ html, body {
     width: calc(100% - 10px);
     background-color: var(--color-background-primary);
     padding: 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100% - 8px);
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media only screen and (min-width: 769px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80vw;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    html, body {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60vw;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    html, body {
+        justify-content: center;
+    }
 }

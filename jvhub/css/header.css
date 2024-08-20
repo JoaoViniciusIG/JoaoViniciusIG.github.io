@@ -3,12 +3,14 @@
     width: calc(100% - 20px);
     background-color: var(--color-background-secondary);
     border-radius: 8px;
+    max-width: 400px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     margin-bottom: 5vh;
+    transition: 1s;
 }
 
 #header-div-user {
@@ -23,10 +25,45 @@
 
 .header-user-text {
     font-family: "Poppins", sans-serif;
-    color: var(--color-text-primary)
+    color: var(--color-text-primary);
+    font-size: 15px;
 }
 
 .log-out-icon {
     width: 20px;
     color: white;
+}
+
+@media only screen and (min-width: 769px) {
+    .header-logo {
+        width: 30%;
+    }
+    
+    .log-out-icon {
+        width: 30px;
+    }
+
+    #header-container {
+        width: calc(80vw - 20px);
+        max-width: none;
+    }
+
+    .header-user-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-logo {
+        width: 30%;
+    }
+
+    .log-out-icon {
+        width: 40px;
+    }
+
+    #header-container {
+        width: calc(60vw - 20px);
+        max-width: none;
+    }
 }
