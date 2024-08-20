@@ -88,9 +88,11 @@ class Header extends HTMLElement {
         const selectedName = self.getAttribute("selectedName")
 
         const selectedElement = self.querySelector(`div[name="${selectedName}"]`);
-
+        
         selectedElement.classList.add("div-selected");
-        selectedElement.querySelector("path").stroke = `./assets/img/icons/header/icon-${selectedName}-${themeName[isDark]}.svg`
+        if (self.getAttribute("selectedName") !== "premium") {
+            selectedElement.querySelector("path").style = `stroke: var(--color-icons-emphasis);`;
+        }
     }
 }
 

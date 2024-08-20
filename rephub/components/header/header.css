@@ -1,7 +1,7 @@
 #header-div-master {
     background-color: var(--color-background-emphasis);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
     width: calc(100% - 30px);
@@ -124,7 +124,7 @@
     fill: var(--color-premium);
 }
 
-@media only screen and (min-width: 769px) and (pointer: fine) {
+@media only screen and (min-width: 900px) and (pointer: fine) {
     .header-mobile-icons {
         display: none;
     }
@@ -135,5 +135,11 @@
 
     .header-access-counter {
         display: flex;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (pointer: fine) {
+    #header-div-master {
+        justify-content: space-around;
     }
 }

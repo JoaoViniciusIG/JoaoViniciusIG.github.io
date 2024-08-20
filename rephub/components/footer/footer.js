@@ -74,7 +74,7 @@ class Footer extends HTMLElement {
 
                     <div class="div-content-registration">
                         <hr>
-                        <p class="footer-registration-text"><i class="bi bi-r-circle"></i> 2024 - All rights reserved</p>
+                        <p class="footer-registration-text"><i class="bi bi-c-circle"></i> 2024 - All rights reserved</p>
                     </div>
                 </div>
             </div>
