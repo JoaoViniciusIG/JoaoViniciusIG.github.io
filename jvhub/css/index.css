@@ -6,11 +6,13 @@ html, body {
     align-items: center;
     flex-direction: column;
     min-height: calc(100% - 8px);
+    transition: 1s;
 }
 
 main {
     width: 100%;
     max-width: 400px;
+    transition: 1s;
 }
 
 @media only screen and (min-width: 769px) {
