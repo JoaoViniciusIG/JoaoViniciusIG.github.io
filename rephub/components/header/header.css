@@ -124,7 +124,7 @@
     fill: var(--color-premium);
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) and (pointer: fine) {
     .header-mobile-icons {
         display: none;
     }
