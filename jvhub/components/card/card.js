@@ -29,7 +29,7 @@ class Card extends HTMLElement {
                     <div class="card-div-content-social">
                         <p class="text-content text-extra-light">${projectCategory}</p>
                         
-                        <a class="card-social-a" href="${githubLink}">
+                        <a class="card-social-a" target="_blank" href="${githubLink}">
                             <i class="card-social-icons" data-feather="github"></i>
                         </a>
                     </div> 
