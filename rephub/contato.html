@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="css/colors.css"/>
+    <link rel="stylesheet" href="css/contato.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -20,10 +21,30 @@
 <body>
     <header-component selectedName="contato"></header-component>
     
-    <main style="height: calc(100% - 7vh);">
-        
+    <main>
+        <h1 class="content-title">Contato</h1>
+
+        <form id="form-contact" action="https://formsubmit.co/ajax/joaovigu07@gmail.com" method="POST" onsubmit="javascript: afterSubmit(); return false">
+            <label for="input-name" class="label-form">Nome</label>
+            <input class="input-form" type="text" id="input-name" name="contact-name" placeholder="Nome..." required>
+
+            <label for="input-email" class="label-form">Email</label>
+            <input class="input-form" type="email" id="input-email" name="contact-email" placeholder="exemplo@gmail.com" required>
+
+            <label for="input-message" class="label-form">Mensagem</label>
+            <textarea class="input-form input-textarea" type="text" id="input-message" name="contact-message" placeholder="Mensagem..." value="" required></textarea>
+
+            <input class="form-submit" type="submit">
+        </form>
     </main>
     
     <footer-component></footer-component>
 </body>
+<script>
+    function afterSubmit() {
+        //Clear Inputs
+
+        document.getElementById("form-contact").reset();
+    }
+</script>
 </html>

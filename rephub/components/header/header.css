@@ -5,7 +5,7 @@
     align-items: center;
     padding: 0 15px;
     width: calc(100% - 30px);
-    height: 7vh;
+    height: 8vh;
 
     border-bottom: 2px solid var(--color-border);
 }
@@ -41,7 +41,7 @@
 
 .nav-option-div-master {
     position: relative;
-    height: 7vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
