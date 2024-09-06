@@ -1,0 +1,13 @@
+main {
+    display: flex;
+}
+
+.container-cards-master {
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 30px;
+}
