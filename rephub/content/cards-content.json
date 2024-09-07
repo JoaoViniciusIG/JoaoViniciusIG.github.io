@@ -1,0 +1,34 @@
+[
+    {
+        "type": "premium",
+        "name": "Hiago Gabriel",
+        "projectName": "Nome Projeto",
+        "projectCategory": "Categoria",
+        "counterName": "blablabla",
+        "imageSource": "card-0001-img.png"
+    },
+    {
+        "type": "gold",
+        "name": "João Vinícius",
+        "projectName": "Nome Projeto 2",
+        "projectCategory": "Categoria 2",
+        "counterName": "blablabla",
+        "imageSource": "card-0001-img.png"
+    },
+    {
+        "type": "silver",
+        "name": "João Vinícius",
+        "projectName": "Nome Projeto 2",
+        "projectCategory": "Categoria 2",
+        "counterName": "blablabla",
+        "imageSource": "card-0001-img.png"
+    },
+    {
+        "type": "normal",
+        "name": "João Vinícius",
+        "projectName": "Nome Projeto 2",
+        "projectCategory": "Categoria 2",
+        "counterName": "blablabla",
+        "imageSource": "card-0001-img.png"
+    }
+]
