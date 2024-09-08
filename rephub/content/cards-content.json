@@ -1,34 +1,35 @@
 [
     {
+        "id": 1001,
         "type": "premium",
         "name": "Hiago Gabriel",
         "projectName": "Nome Projeto",
         "projectCategory": "Categoria",
-        "counterName": "blablabla",
-        "imageSource": "card-0001-img.png"
+        "counterName": "hiagogabriel",
+        "instagramUrl": "www.instagram.com/hiago.gabriel.940098/",
+        "githubUrl": "https://github.com/hiagogabrielga",
+        "projectUrl": "https://hiagogabrielga.github.io/Front-end/Projeto-linguagens/"
     },
     {
+        "id": 1002,
         "type": "gold",
-        "name": "João Vinícius",
-        "projectName": "Nome Projeto 2",
-        "projectCategory": "Categoria 2",
-        "counterName": "blablabla",
-        "imageSource": "card-0001-img.png"
+        "name": "Vitor Cappeleto",
+        "projectName": "Aurora",
+        "projectCategory": "Tecnologia",
+        "counterName": "vitorcappeleto",
+        "instagramUrl": "https://www.instagram.com/capelleto_/",
+        "githubUrl": "https://github.com/cappeLindo",
+        "projectUrl": "https://cappelindo.github.io/frontend/aurora/"
     },
     {
-        "type": "silver",
-        "name": "João Vinícius",
-        "projectName": "Nome Projeto 2",
-        "projectCategory": "Categoria 2",
-        "counterName": "blablabla",
-        "imageSource": "card-0001-img.png"
-    },
-    {
-        "type": "normal",
-        "name": "João Vinícius",
-        "projectName": "Nome Projeto 2",
-        "projectCategory": "Categoria 2",
-        "counterName": "blablabla",
-        "imageSource": "card-0001-img.png"
+        "id": 1003,
+        "type": "gold",
+        "name": "João Corso",
+        "projectName": "CK Review",
+        "projectCategory": "Review",
+        "counterName": "joaocorso",
+        "instagramUrl": "https://www.instagram.com/joao.corso.54/",
+        "githubUrl": "https://github.com/Corso330Z",
+        "projectUrl": "https://corso330z.github.io/site_mobile/"
     }
 ]

@@ -4,13 +4,19 @@ class RepCard extends HTMLElement {
     }
 
     connectedCallback() {
+        const cardIndex = self.getAttribute("card-index");
         const name = self.getAttribute("name");
         const projectName = self.getAttribute("project-name");
         const counterCard = self.getAttribute("counter-card");
         const projectCategory = self.getAttribute("project-category");
-        const imgSource = self.getAttribute("image-name");
+        const projectUrl = self.getAttribute("project-url");
         const cardType = self.getAttribute("type");
-        let cardContent, cardImageClass;
+        const instagramUrl = self.getAttribute("instagram-url");
+        const githubUrl = self.getAttribute("github-url");
+        let cardContent, 
+            cardImageClass, 
+            instagramComp = "", 
+            githubComp = "";
 
 
 
@@ -68,11 +74,46 @@ class RepCard extends HTMLElement {
             cardContent = "";
         }
 
+
+        if(instagramUrl) {
+            instagramComp = `
+                <a class="social-icon-a" href="${instagramUrl}">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_40_244)">
+                        <path d="M10.2083 3.79166H10.2142M4.08332 1.16666H9.91666C11.5275 1.16666 12.8333 2.47249 12.8333 4.08332V9.91666C12.8333 11.5275 11.5275 12.8333 9.91666 12.8333H4.08332C2.47249 12.8333 1.16666 11.5275 1.16666 9.91666V4.08332C1.16666 2.47249 2.47249 1.16666 4.08332 1.16666ZM9.33332 6.63249C9.40531 7.11797 9.32239 7.61378 9.09635 8.04942C8.87031 8.48505 8.51266 8.83831 8.07427 9.05897C7.63588 9.27962 7.13908 9.35642 6.65453 9.27845C6.16998 9.20048 5.72235 8.9717 5.37531 8.62467C5.02827 8.27763 4.7995 7.83 4.72153 7.34545C4.64356 6.8609 4.72036 6.36409 4.94101 5.92571C5.16167 5.48732 5.51493 5.12967 5.95056 4.90363C6.3862 4.67759 6.88201 4.59467 7.36749 4.66666C7.86269 4.74009 8.32115 4.97084 8.67514 5.32484C9.02914 5.67883 9.25989 6.13728 9.33332 6.63249Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_40_244">
+                        <rect width="14" height="14" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            `;
+        }
+
+        if(githubUrl) {
+            githubComp = `
+                <a class="social-icon-a" href="${githubUrl}">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_40_246)">
+                        <path d="M5.24999 11.0833C2.33332 11.9583 2.33332 9.62501 1.16666 9.33335M9.33332 12.8333V10.5758C9.3552 10.2977 9.31762 10.0181 9.22308 9.75556C9.12854 9.49305 8.9792 9.25368 8.78499 9.05335C10.6167 8.84918 12.5417 8.15501 12.5417 4.97001C12.5415 4.15558 12.2282 3.37238 11.6667 2.78251C11.9326 2.06998 11.9138 1.28238 11.6142 0.583348C11.6142 0.583348 10.9258 0.379181 9.33332 1.44668C7.99633 1.08433 6.58698 1.08433 5.24999 1.44668C3.65749 0.379181 2.96916 0.583348 2.96916 0.583348C2.66954 1.28238 2.65074 2.06998 2.91666 2.78251C2.3509 3.37676 2.03729 4.16703 2.04166 4.98751C2.04166 8.14918 3.96666 8.84335 5.79832 9.07085C5.6064 9.26916 5.45839 9.50567 5.36392 9.76497C5.26945 10.0243 5.23063 10.3006 5.24999 10.5758V12.8333" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_40_246">
+                        <rect width="14" height="14" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            `;
+        }
+
         this.innerHTML = `
             <link rel="stylesheet" href="./components/repCard/rep-card.css"/>
 
-            <div class="container-master">
-                <img class="img-card ${cardImageClass}" src="./assets/img/card-img/${imgSource}"/>
+            <div class="container-master" onclick="accessCard('card-${cardIndex}', '${projectUrl}')">
+                <img class="img-card ${cardImageClass}" src="./assets/img/card-img/card-${cardIndex}-img.png"/>
 
                 <div class="div-content">
                     ${cardContent}
@@ -80,13 +121,14 @@ class RepCard extends HTMLElement {
                     <div class="div-content-text">
                         <h1 class="poppins text-title">${name}</h1>
                         <h2 class="poppins text-subtitle">${projectName}</h2>
-                        <h3 class="poppins text-content">${counterCard}</h3>
+                        <h3 id="card-${cardIndex}" class="poppins text-content">${counterCard}</h3>
                     </div>
 
                     <div class="div-content-icons">
                         <h3 class="poppins text-content">${projectCategory}</h3>
-                        <a></a>
-                        <a></a>
+                        
+                        ${instagramComp}
+                        ${githubComp}
                     </div>
                 </div>
             </div>

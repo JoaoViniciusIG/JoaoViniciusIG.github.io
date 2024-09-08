@@ -6,6 +6,8 @@
     --color-background-emphasis: #151515;
     --color-border: #FFF;
     --color-icons: #FFF;
+    --color-icons-hover: #787878;
+    --color-icons-disabled: #3e3e3e;
     --color-icons-emphasis: black;
     --color-text-primary: #FFF;
     --color-text-secondary: black;

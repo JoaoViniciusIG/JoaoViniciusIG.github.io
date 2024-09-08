@@ -88,7 +88,7 @@
 
 .img-premium {
     border-radius: 8px !important;
-    border: 2px solid var(--color-premium);
+    border: 3px solid var(--color-premium);
 }
 
 .card-gold {
@@ -100,19 +100,15 @@
 }
 
 .card-gold svg path {
-    stroke: var(--color-icons);
+    fill: var(--color-icons);
 }
 
 .img-gold {
-    border: 2px solid var(--color-gold);
+    border: 3px solid var(--color-gold);
 }
 
 .card-silver {
     background-color: var(--color-silver);
-}
-
-.card-silver svg {
-    width: 17px;
 }
 
 .card-silver svg path {
@@ -120,7 +116,36 @@
 }
 
 .img-silver {
-    border: 2px solid var(--color-silver);
+    border: 3px solid var(--color-silver);
+}
+
+.div-content-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 3vw;
+    height: 3vw;
+}
+
+.social-icon-a {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-a svg{
+    width: 3vw;
+    height: 3vw;
+}
+
+.social-icon-a svg path{
+    stroke: var(--color-icons);
+    transition: .5s;
+}
+
+.social-icon-a:hover svg path{
+    stroke: var(--color-icons-hover);
 }
 
 @media only screen and (min-width: 769px) {
@@ -157,17 +182,24 @@
 
     .text-title {
         font-size: 25px;
-        font-weight: 100;
     }
     
     .text-subtitle {
         font-size: 17px;
-        font-weight: 400;
     }
     
     .text-content {
         font-size: 15px;
-        font-weight: 200;
+    }
+
+    .div-content-icons {
+        gap: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .social-icon-a svg{
+        width: 1.5vw;
+        height: 1.5vw;
     }
 
 }
@@ -209,17 +241,24 @@
 
     .text-title {
         font-size: 30px;
-        font-weight: 100;
     }
     
     .text-subtitle {
         font-size: 22px;
-        font-weight: 400;
     }
     
     .text-content {
         font-size: 20px;
-        font-weight: 200;
     }
 
+    .div-content-icons {
+        gap: 1vw;
+        height: 1vw;
+    }
+
+    .social-icon-a svg{
+        width: 1vw;
+        height: 1vw;
+    }
+    
 }
