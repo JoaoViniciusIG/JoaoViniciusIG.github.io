@@ -9,11 +9,14 @@ class Header extends HTMLElement {
 
         this.innerHTML = `
             <link rel="stylesheet" href="./components/header/header.css"/>
+            <link rel="stylesheet" href="./components/header/mobile-nav.css"/>
 
             <header id="header-div-master">
-                <a class="header-a header-mobile-icons">
-                    <img class="header-icons" src="./assets/img/icons/list.svg"/>
-                </a>
+                <div id="mobile-menu" onclick="toggleNavBar()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
 
                 <a class="header-a">
                     <img class="header-logo" src="./assets/img/logos/Logo-JV-Branco.svg">

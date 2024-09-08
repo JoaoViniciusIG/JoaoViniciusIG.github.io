@@ -21,13 +21,6 @@
     height: 70%;
 }
 
-#header-nav-container {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    gap: 5%
-}
-
 .nav-option-icon {
     width: 24px;
 }
@@ -136,6 +129,9 @@
 
     #header-nav-container {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%
     }
 
     .header-access-counter {
@@ -146,6 +142,13 @@
 @media only screen and (min-width: 1200px) {
     #header-div-master {
         justify-content: space-around;
+    }
+
+    #header-nav-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%
     }
 
     .nav-option-text {

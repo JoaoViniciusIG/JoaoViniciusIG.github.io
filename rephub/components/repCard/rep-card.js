@@ -125,7 +125,7 @@ class RepCard extends HTMLElement {
 
                     <div class="div-content-icons">
                         <h3 class="poppins text-content">${projectCategory}</h3>
-                        
+
                         ${instagramComp}
                         ${githubComp}
                     </div>

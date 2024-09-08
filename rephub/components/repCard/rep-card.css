@@ -121,10 +121,14 @@
 
 .div-content-icons {
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    gap: 3vw;
-    height: 3vw;
+    justify-content: right;
+    align-items: center;
+    gap: 5vw;
+    height: 5vw;
+}
+
+.div-content-icons h3 {
+    margin: 0;
 }
 
 .social-icon-a {
@@ -135,8 +139,8 @@
 }
 
 .social-icon-a svg{
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
 }
 
 .social-icon-a svg path{
@@ -171,7 +175,7 @@
     .img-card {
         width: 15vw;
         height: 15vw;
-        border-radius:  10vw;
+        border-radius:  15vw;
     }
 
     .card-especial {
