@@ -7,7 +7,6 @@ class RepCard extends HTMLElement {
         const cardIndex = self.getAttribute("card-index");
         const name = self.getAttribute("name");
         const projectName = self.getAttribute("project-name");
-        const counterCard = self.getAttribute("counter-card");
         const projectCategory = self.getAttribute("project-category");
         const projectUrl = self.getAttribute("project-url");
         const cardType = self.getAttribute("type");
@@ -121,7 +120,7 @@ class RepCard extends HTMLElement {
                     <div class="div-content-text">
                         <h1 class="poppins text-title">${name}</h1>
                         <h2 class="poppins text-subtitle">${projectName}</h2>
-                        <h3 id="card-${cardIndex}" class="poppins text-content">${counterCard}</h3>
+                        <h3 id="card-${cardIndex}" class="poppins text-content"></h3>
                     </div>
 
                     <div class="div-content-icons">

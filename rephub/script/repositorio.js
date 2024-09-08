@@ -14,7 +14,7 @@ function insertCards(data) {
 
     for(info of data) {
         divCards.innerHTML += `
-        <repcard-component type="${info.type}" name="${info.name}" project-name="${info.projectName}" counter-card="1000" project-category="${info.projectCategory}" card-index="${info.id}" project-url="${info.projectUrl}" instagram-url="${info.instagramUrl}" github-url="${info.githubUrl}"></repcard-component>
+        <repcard-component type="${info.type}" name="${info.name}" project-name="${info.projectName}" project-category="${info.projectCategory}" card-index="${info.id}" project-url="${info.projectUrl}" instagram-url="${info.instagramUrl}" github-url="${info.githubUrl}"></repcard-component>
         `
 
         getAccessCardNum(`card-${info.id}`, info.counterName);
@@ -35,7 +35,7 @@ function getAccessCardNum(counterPath, webCounterName) {
         })
 }
 
-function accessCard(webCounterName, webPath) {
+function accessCard(webPath) {
     fetch(`https://api.counterapi.dev/v1/rephubifro2024/${webPath}/up`).then(async (res) => {
         await res.json();
 
