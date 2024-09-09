@@ -1,0 +1,14 @@
+html, body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    position: relative;
+    min-height: 100%;
+    width: 88vw;
+    background-color: var(--color-background);
+}

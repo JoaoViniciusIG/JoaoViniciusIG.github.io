@@ -8,7 +8,8 @@
         "counterName": "hiagogabriel",
         "instagramUrl": "www.instagram.com/hiago.gabriel.940098/",
         "githubUrl": "https://github.com/hiagogabrielga",
-        "projectUrl": "https://hiagogabrielga.github.io/Front-end/Projeto-linguagens/"
+        "projectUrl": "https://hiagogabrielga.github.io/Front-end/Projeto-linguagens/",
+        "imageSource": "1001"
     },
     {
         "id": 1002,
@@ -19,7 +20,8 @@
         "counterName": "vitorcappeleto",
         "instagramUrl": "https://www.instagram.com/capelleto_/",
         "githubUrl": "https://github.com/cappeLindo",
-        "projectUrl": "https://cappelindo.github.io/frontend/aurora/"
+        "projectUrl": "https://cappelindo.github.io/frontend/aurora/",
+        "imageSource": "1002"
     },
     {
         "id": 1003,
@@ -30,7 +32,8 @@
         "counterName": "joaocorso",
         "instagramUrl": "https://www.instagram.com/joao.corso.54/",
         "githubUrl": "https://github.com/Corso330Z",
-        "projectUrl": "https://corso330z.github.io/site_mobile/"
+        "projectUrl": "https://corso330z.github.io/site_mobile/",
+        "imageSource": "1003"
     },
     {
         "id": 1004,
@@ -41,7 +44,8 @@
         "counterName": "alinidesousa",
         "instagramUrl": "",
         "githubUrl": "https://github.com/alinisp",
-        "projectUrl": "https://alinisp.github.io/Projeto_2/index.html"
+        "projectUrl": "https://alinisp.github.io/Projeto_2/index.html",
+        "imageSource": "default"
     },
     {
         "id": 1005,
@@ -52,7 +56,8 @@
         "counterName": "anacaroline",
         "instagramUrl": "",
         "githubUrl": "https://github.com/anacaroline16",
-        "projectUrl": "https://anacaroline16.github.io/Front_end_1/projeto_2/"
+        "projectUrl": "https://anacaroline16.github.io/Front_end_1/projeto_2/",
+        "imageSource": "1005"
     },
     {
         "id": 1006,
@@ -63,7 +68,8 @@
         "counterName": "anaisabely",
         "instagramUrl": "",
         "githubUrl": "https://github.com/belchiorisa",
-        "projectUrl": "https://belchiorisa.github.io/Projeto2/"
+        "projectUrl": "https://belchiorisa.github.io/Projeto2/",
+        "imageSource": "1006"
     },
     {
         "id": 1007,
@@ -74,7 +80,8 @@
         "counterName": "annegabriele",
         "instagramUrl": "",
         "githubUrl": "https://github.com/annegabrielebassi",
-        "projectUrl": "https://annegabrielebassi.github.io/"
+        "projectUrl": "https://annegabrielebassi.github.io/",
+        "imageSource": "default"
     },
     {
         "id": 1008,
@@ -85,7 +92,8 @@
         "counterName": "beatrizeduarda",
         "instagramUrl": "",
         "githubUrl": "https://github.com/beatriztesser",
-        "projectUrl": "https://beatriztesser.github.io/Site/"
+        "projectUrl": "https://beatriztesser.github.io/Site/",
+        "imageSource": "default"
     },
     {
         "id": 1009,
@@ -96,7 +104,8 @@
         "counterName": "camillepatricio",
         "instagramUrl": "",
         "githubUrl": "https://github.com/paganicamille",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "default"
     },
     {
         "id": 1010,
@@ -107,7 +116,8 @@
         "counterName": "carloseduardo",
         "instagramUrl": "",
         "githubUrl": "https://github.com/carlinlambimia",
-        "projectUrl": "https://carlinlambimia.github.io/CarlinLambiMia1/"
+        "projectUrl": "https://carlinlambimia.github.io/CarlinLambiMia1/",
+        "imageSource": "default"
     },
     {
         "id": 1011,
@@ -118,18 +128,20 @@
         "counterName": "isabellylopes",
         "instagramUrl": "",
         "githubUrl": "https://github.com/isabellylinda",
-        "projectUrl": "https://isabellylinda.github.io/site/projeto.02/"
+        "projectUrl": "https://isabellylinda.github.io/site/projeto.02/",
+        "imageSource": "default"
     },
     {
         "id": 1012,
         "type": "normal",
         "name": "João Inglez",
-        "projectName": "NA",
-        "projectCategory": "NA",
+        "projectName": "Coffee Hut",
+        "projectCategory": "Cafeteria",
         "counterName": "joaoinglez",
         "instagramUrl": "",
         "githubUrl": "https://github.com/JoaoInglez387",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "1012"
     },
     {
         "id": 1013,
@@ -140,7 +152,8 @@
         "counterName": "joaoandrade",
         "instagramUrl": "",
         "githubUrl": "https://github.com/joaobent",
-        "projectUrl": "https://joaobent.github.io/Front_end/Meu%20site/index.html"
+        "projectUrl": "https://joaobent.github.io/Front_end/Meu%20site/index.html",
+        "imageSource": "default"
     },
     {
         "id": 1014,
@@ -151,7 +164,8 @@
         "counterName": "joaoguerini",
         "instagramUrl": "https://www.instagram.com/joaopedrogp01/",
         "githubUrl": "https://github.com/JoaoInglez387",
-        "projectUrl": "https://joaoguerini.github.io/AulaIFRO/front-end/projeto/index.html"
+        "projectUrl": "https://joaoguerini.github.io/AulaIFRO/front-end/projeto/index.html",
+        "imageSource": "1014"
     },
     {
         "id": 1015,
@@ -162,7 +176,8 @@
         "counterName": "joaolopes",
         "instagramUrl": "",
         "githubUrl": "https://github.com/lopes-vh",
-        "projectUrl": "https://lopes-vh.github.io/componentes/"
+        "projectUrl": "https://lopes-vh.github.io/componentes/",
+        "imageSource": "1015"
     },
     {
         "id": 1016,
@@ -173,18 +188,20 @@
         "counterName": "joaooliveira",
         "instagramUrl": "",
         "githubUrl": "https://github.com/joliveira-0509",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "default"
     },
     {
         "id": 1017,
         "type": "normal",
         "name": "Júlia de Abreu",
-        "projectName": "Araras",
-        "projectCategory": "Natureza",
+        "projectName": "Marília Mendonça",
+        "projectCategory": "Personalidade",
         "counterName": "juliaabreu",
         "instagramUrl": "",
         "githubUrl": "https://github.com/juliadeabre0",
-        "projectUrl": "https://juliadeabre0.github.io/projeto.2/"
+        "projectUrl": "https://juliadeabre0.github.io/projeto-livre/",
+        "imageSource": "default"
     },
     {
         "id": 1018,
@@ -195,21 +212,11 @@
         "counterName": "juliapereira",
         "instagramUrl": "",
         "githubUrl": "https://github.com/julpereira",
-        "projectUrl": "https://julpereira.github.io/julpereira.github/diret%C3%B3rio-raiz/site-sala-aula/index.html"
+        "projectUrl": "https://julpereira.github.io/julpereira.github/diret%C3%B3rio-raiz/site-sala-aula/index.html",
+        "imageSource": "default"
     },
     {
         "id": 1019,
-        "type": "normal",
-        "name": "Júlia Pereira",
-        "projectName": "Cinecia",
-        "projectCategory": "Filmes",
-        "counterName": "juliapereira",
-        "instagramUrl": "",
-        "githubUrl": "https://github.com/julpereira",
-        "projectUrl": "https://julpereira.github.io/julpereira.github/diret%C3%B3rio-raiz/site-sala-aula/index.html"
-    },
-    {
-        "id": 1020,
         "type": "normal",
         "name": "Lavínia Stein",
         "projectName": "NA",
@@ -217,10 +224,11 @@
         "counterName": "laviniastein",
         "instagramUrl": "",
         "githubUrl": "",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "default"
     },
     {
-        "id": 1021,
+        "id": 1020,
         "type": "normal",
         "name": "Letícia Silva",
         "projectName": "Amor de 4 patas",
@@ -228,10 +236,11 @@
         "counterName": "laticiasilva",
         "instagramUrl": "",
         "githubUrl": "https://github.com/leticiad3br27",
-        "projectUrl": "https://leticiad3br27.github.io/meusite/"
+        "projectUrl": "https://leticiad3br27.github.io/meusite/",
+        "imageSource": "default"
     },
     {
-        "id": 1022,
+        "id": 1021,
         "type": "normal",
         "name": "Lívia Darold",
         "projectName": "Receitas",
@@ -239,10 +248,11 @@
         "counterName": "laviniastein",
         "instagramUrl": "",
         "githubUrl": "https://github.com/darold08",
-        "projectUrl": "https://darold08.github.io/projeto_mobile/html/index.html"
+        "projectUrl": "https://darold08.github.io/projeto_mobile/html/index.html",
+        "imageSource": "default"
     },
     {
-        "id": 1023,
+        "id": 1022,
         "type": "normal",
         "name": "Luana Vitória",
         "projectName": "América do Sul",
@@ -250,10 +260,11 @@
         "counterName": "luanavitoria",
         "instagramUrl": "",
         "githubUrl": "https://github.com/luanavitori",
-        "projectUrl": "https://luanavitori.github.io/projeto%202/index.html"
+        "projectUrl": "https://luanavitori.github.io/projeto%202/index.html",
+        "imageSource": "default"
     },
     {
-        "id": 1024,
+        "id": 1023,
         "type": "normal",
         "name": "Luz Miranda",
         "projectName": "Vegan",
@@ -261,10 +272,11 @@
         "counterName": "luzmiranda",
         "instagramUrl": "",
         "githubUrl": "https://github.com/luzzzmiranda",
-        "projectUrl": "https://luzzzmiranda.github.io/frontend_2bimestre/culinariaVegana/"
+        "projectUrl": "https://luzzzmiranda.github.io/frontend_2bimestre/culinariaVegana/",
+        "imageSource": "default"
     },
     {
-        "id": 1025,
+        "id": 1024,
         "type": "normal",
         "name": "Marcos Vinícius",
         "projectName": "NA",
@@ -272,10 +284,11 @@
         "counterName": "marcosvinicius",
         "instagramUrl": "",
         "githubUrl": "",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "default"
     },
     {
-        "id": 1026,
+        "id": 1025,
         "type": "normal",
         "name": "Maria Oliveira",
         "projectName": "Bate-Papo-Alimentar",
@@ -283,10 +296,11 @@
         "counterName": "mariaoliveira",
         "instagramUrl": "",
         "githubUrl": "https://github.com/oliveiraduda123",
-        "projectUrl": ""
+        "projectUrl": "",
+        "imageSource": "default"
     },
     {
-        "id": 1027,
+        "id": 1026,
         "type": "normal",
         "name": "Maria Golçalves",
         "projectName": "BMD",
@@ -294,10 +308,11 @@
         "counterName": "mariagolcalves",
         "instagramUrl": "",
         "githubUrl": "https://github.com/mariagoncalves15",
-        "projectUrl": "https://mariagoncalves15.github.io/Front-end-I/projeto_atualizado/"
+        "projectUrl": "https://mariagoncalves15.github.io/Front-end-I/projeto_atualizado/",
+        "imageSource": "default"
     },
     {
-        "id": 1028,
+        "id": 1027,
         "type": "normal",
         "name": "Maria Fernanda",
         "projectName": "Blog CarePet",
@@ -305,10 +320,11 @@
         "counterName": "mariafernanda",
         "instagramUrl": "",
         "githubUrl": "https://github.com/fernandaoooo",
-        "projectUrl": "https://fernandaoooo.github.io/front-end-2/projetoMobile/"
+        "projectUrl": "https://fernandaoooo.github.io/front-end-2/projetoMobile/",
+        "imageSource": "default"
     },
     {
-        "id": 1029,
+        "id": 1028,
         "type": "normal",
         "name": "Mariana Zorzi",
         "projectName": "Marvel",
@@ -316,10 +332,11 @@
         "counterName": "marianazorzi",
         "instagramUrl": "",
         "githubUrl": "https://github.com/marianazorzi1",
-        "projectUrl": "https://marianazorzi1.github.io/site/mobile/html/index.html"
+        "projectUrl": "https://marianazorzi1.github.io/site/mobile/html/index.html",
+        "imageSource": "default"
     },
     {
-        "id": 1030,
+        "id": 1029,
         "type": "normal",
         "name": "Maria Fernanda",
         "projectName": "Blog CarePet",
@@ -327,10 +344,11 @@
         "counterName": "mariafernanda",
         "instagramUrl": "",
         "githubUrl": "https://github.com/fernandaoooo",
-        "projectUrl": "https://fernandaoooo.github.io/front-end-2/projetoMobile/"
+        "projectUrl": "https://fernandaoooo.github.io/front-end-2/projetoMobile/",
+        "imageSource": "default"
     },
     {
-        "id": 1031,
+        "id": 1030,
         "type": "normal",
         "name": "Nathan Teixeira",
         "projectName": "Viagem do Gurismo",
@@ -338,10 +356,11 @@
         "counterName": "nathanteixeira",
         "instagramUrl": "https://www.instagram.com/nathanteixeira55/",
         "githubUrl": "https://github.com/NathanTLopes",
-        "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/"
+        "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/",
+        "imageSource": "1030"
     },
     {
-        "id": 1032,
+        "id": 1031,
         "type": "normal",
         "name": "Sofia Melo",
         "projectName": "NA",
@@ -349,10 +368,11 @@
         "counterName": "sofiamelo",
         "instagramUrl": "",
         "githubUrl": "https://github.com/melosofia",
-        "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/"
+        "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/",
+        "imageSource": "default"
     },
     {
-        "id": 1033,
+        "id": 1032,
         "type": "normal",
         "name": "Max Costa",
         "projectName": "GameArts",
@@ -360,6 +380,7 @@
         "counterName": "maxcosta",
         "instagramUrl": "",
         "githubUrl": "https://github.com/maxcostacardosoifro",
-        "projectUrl": "https://maxcostacardosoifro.github.io/site-sala-aula/index.html"
+        "projectUrl": "https://maxcostacardosoifro.github.io/site-sala-aula/index.html",
+        "imageSource": "default"
     }
 ]

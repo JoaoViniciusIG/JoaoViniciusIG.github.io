@@ -14,7 +14,7 @@ function insertCards(data) {
 
     for(info of data) {
         divCards.innerHTML += `
-        <repcard-component type="${info.type}" name="${info.name}" project-name="${info.projectName}" project-category="${info.projectCategory}" card-index="${info.id}" project-url="${info.projectUrl}" instagram-url="${info.instagramUrl}" github-url="${info.githubUrl}" counter-name="${info.counterName}"></repcard-component>
+        <repcard-component type="${info.type}" name="${info.name}" project-name="${info.projectName}" project-category="${info.projectCategory}" card-index="${info.id}" project-url="${info.projectUrl}" instagram-url="${info.instagramUrl}" github-url="${info.githubUrl}" counter-name="${info.counterName}" image-source="${info.imageSource}"></repcard-component>
         `
 
         getAccessCardNum(`card-${info.id}`, info.counterName);
