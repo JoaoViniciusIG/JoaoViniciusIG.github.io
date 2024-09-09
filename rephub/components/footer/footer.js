@@ -62,11 +62,11 @@ class Footer extends HTMLElement {
                                 </ul>
 
                                 <ul>
-                                    <li>Cappeleto</li>
-                                    <li>Carlos</li>
-                                    <li>Hiago André</li>
-                                    <li>João Corso</li>
-                                    <li>João Inglez</li>
+                                    <li>João Guerini</li>
+                                    <li>João Andrade</li>
+                                    <li>João Oliveira</li>
+                                    <li>Marcos</li>
+                                    <li>Nathan</li>
                                 </ul>
                             </div>
                         </div>

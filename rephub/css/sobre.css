@@ -1,7 +1,7 @@
 .content-title {
     margin-top: 30px;
     font-family: "Poppins", sans-serif;
-    font-size: 3.5vw;
+    font-size: 7vw;
     color: var(--color-text-primary);
     font-style: italic;
     text-align: center;
@@ -28,6 +28,7 @@
 
 .align-right-tiny {
     position: absolute;
+    z-index: 0;
     bottom: 0;
     font-size: 2.5vw;
     text-align: right;
@@ -39,6 +40,10 @@ span {
 }
 
 @media only screen and (min-width: 769px) {
+    .content-title {
+        font-size: 3.5vw;
+    }
+
     .text-content {
         font-size: 1.3vw;
         line-height: 1.8vw;

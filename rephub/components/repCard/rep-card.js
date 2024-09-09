@@ -12,6 +12,7 @@ class RepCard extends HTMLElement {
         const cardType = self.getAttribute("type");
         const instagramUrl = self.getAttribute("instagram-url");
         const githubUrl = self.getAttribute("github-url");
+        const counterName = self.getAttribute("counter-name");
         let cardContent, 
             cardImageClass, 
             instagramComp = "", 
@@ -111,7 +112,7 @@ class RepCard extends HTMLElement {
         this.innerHTML = `
             <link rel="stylesheet" href="./components/repCard/rep-card.css"/>
 
-            <div class="container-master" onclick="accessCard('card-${cardIndex}', '${projectUrl}')">
+            <div class="container-master" onclick="accessCard('${counterName}', '${projectUrl}')">
                 <img class="img-card ${cardImageClass}" src="./assets/img/card-img/card-${cardIndex}-img.png"/>
 
                 <div class="div-content">

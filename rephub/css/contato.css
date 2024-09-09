@@ -1,7 +1,7 @@
 .content-title {
     margin-top: 30px;
     font-family: "Poppins", sans-serif;
-    font-size: 3.5vw;
+    font-size: 6vw;
     color: var(--color-text-primary);
     font-style: italic;
     text-align: center;
@@ -12,13 +12,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 35%;
+    width: 70vw;
     align-self: center;
 }
 
 .label-form {
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     color: var(--color-background-input);
 }
@@ -30,7 +30,7 @@
     border-radius: 8px;
     border: none;
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     min-height: 5vh;
     color: var(--color-text-secondary);
     transition: .5s;
@@ -65,4 +65,22 @@
 .form-submit:hover {
     background-color: var(--color-text-input);
     color: var(--color-text-primary)
+}
+
+@media only screen and (min-width: 769px) {
+    .content-title {
+        font-size: 3.5vw;
+    }
+
+    .label-form {
+        font-size: 20px;
+    }
+
+    #form-contact {
+        width: 35vw;
+    }
+
+    .input-form {
+        font-size: 15px;
+    }
 }

@@ -4,8 +4,6 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
-        let isDark = 1;
-        const themeName = ["light", "dark"];
 
         this.innerHTML = `
             <link rel="stylesheet" href="./components/header/header.css"/>
@@ -18,12 +16,8 @@ class Header extends HTMLElement {
                     <div class="line3"></div>
                 </div>
 
-                <a class="header-a">
+                <a class="header-a" href="/">
                     <img class="header-logo" src="./assets/img/logos/Logo-JV-Branco.svg">
-                </a>
-
-                <a class="header-a header-mobile-icons">
-                    <img class="header-icons" src="./assets/img/icons/filter.svg"/>
                 </a>
 
 
@@ -49,7 +43,7 @@ class Header extends HTMLElement {
                         </a>
                     </div>
 
-                    <div class="nav-option-div-master premium" name="premium">
+                    <!-- <div class="nav-option-div-master premium" name="premium">
                         <span class="nav-option-div-selected"></span>
                         <a class="nav-option-a" href="/rephub/premium.html">
                             <svg class="svg-icons-header sgv-premium" width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,7 +52,7 @@ class Header extends HTMLElement {
 
                             <p class="nav-option-text">Premium</p>
                         </a>
-                    </div>
+                    </div> -->
 
                     <div class="nav-option-div-master" name="sobre">
                         <span class="nav-option-div-selected"></span>
@@ -83,7 +77,7 @@ class Header extends HTMLElement {
                     </div>
                 </nav>
 
-                <h1 class="header-access-counter">0002</h1>
+                <h1 id="header-access-counter"></h1>
             </header>
         `
 
@@ -96,6 +90,8 @@ class Header extends HTMLElement {
         if (self.getAttribute("selectedName") !== "premium") {
             selectedElement.querySelector("path").style = `stroke: var(--color-icons-emphasis);`;
         }
+
+        getAccessSiteNum("header-access-counter", "rephub")
     }
 }
 

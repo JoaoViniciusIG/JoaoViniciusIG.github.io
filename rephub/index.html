@@ -8,10 +8,13 @@
     <script src="./components/footer/footer.js" type="text/javascript"></script>
     <script src="./components/header/navBar.js" type="text/javascript"></script>
     <script src="./script/color.js"></script>
+    <script src="./script/home.js"></script>
     <script src="./script/feather.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
     <link rel="stylesheet" href="css/colors.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +24,97 @@
     <header-component selectedName="inicio"></header-component>
     
     <main>
+        <div class="container-content-header">
+            <h1 class="poppins content-header-title">RepHub</h1>
+            <h3 class="poppins content-header-subtitle">Conheça os projetos do 2°A Informática</h3>
+        </div>
 
+        <div class="container-content">
+            <div class="div-content-master div-content-master-row">
+                <div class="div-card-tiny">
+                    <h2 class="poppins text-content">N° total de projetos</h2>
+                    <p id="text-num-cards" class="poppins text-content-bold"></p>
+                </div>
+
+                <a class="div-card-tiny centered" href="/rephub/repositorio.html">
+                    <i class="bi bi-arrow-up-right icon-arrow-redirect"></i>
+                    <h2 class="poppins text-content">Acessar lista de projetos</h2>
+                </a>
+            </div>
+
+            <div class="div-content-master div-content-premium div-content-master-row" onclick="accessCard('hiagogabriel', 'https://hiagogabrielga.github.io/Front-end/Projeto-linguagens/')">
+                <div class="div-content-header">
+                    <div id="alert-premium-1" class="div-alert-premium">
+                        <i class="bi bi-exclamation-circle"></i>
+    
+                        <p class="poppins">Patrocinado</p>
+                    </div>
+    
+                    <img class="img-card-premium" src="assets/img/card-img/card-1001-img.png"/>
+                </div>
+
+                <div class="div-card-content-content">
+                    <div class="space-div"></div>
+
+                    <div id="alert-premium-2" class="div-alert-premium">
+                        <i class="bi bi-exclamation-circle"></i>
+
+                        <p class="poppins">Patrocinado</p>
+                    </div>
+
+                    <div>
+                        <h1 class="poppins text-content-name">Hiago Gabriel</h1>
+                        <h2 class="poppins text-content-project">WebWizard</h2>
+                    </div>
+
+                    <div class="div-card-content-footer">
+                        <p class="poppins">Informativo</p>
+
+                        <div class="div-card-content-icons">
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="div-content-master">
+                <div class="div-content-emphasis">
+                    <div class="div-content-emphasis-header">
+                        <p class="poppins text-content-name name-tiny" style="margin: 0;">Projeto mais visto</p>
+                    </div>
+                    
+                    <div class="div-content-emphasis-content div-content-row">
+                        
+                        <div class="div-img-more">
+                            <img class="img-card-premium" src="assets/img/card-img/card-1001-img.png"/>
+                        </div>
+
+                        <div class="div-card-content-content ">
+                            <div class="space-div-inverted"></div>
+                            <div>
+                                <h1 class="poppins text-content-name name-tiny">Hiago Gabriel</h1>
+                                <h2 class="poppins text-content-project project-tiny">WebWizard</h2>
+                            </div>
+        
+                            <div class="div-card-content-footer">
+                                <p class="poppins">Informativo</p>
+        
+                                <div class="div-card-content-icons">
+                                    <i class="bi bi-instagram"></i>
+                                    <i class="bi bi-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="div-card-medium" href="/">
+                    <i class="bi bi-arrow-up-right"></i>
+                    <p class="poppins text-content-back">Meus projetos</p>
+                </a>
+            </div>
+        </div>
     </main>
     
     <footer-component></footer-component>

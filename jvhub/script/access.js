@@ -14,5 +14,5 @@ function getAccessCardNum(counterPath, webCounterName) {
 function accessCard(webCounterName, webPath) {
     fetch(`https://api.counterapi.dev/v1/jvhubifro2024/${webCounterName}/up`)
 
-    window.location.href =`https://joaoviniciusig.github.io/${webPath}/`
+    window.location.href = webPath;
 }
