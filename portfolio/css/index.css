@@ -2,13 +2,394 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 main {
-    position: relative;
-    min-height: 100%;
-    width: 88vw;
+    height: 100vh;
+    width: calc(88vw - 2px);
     background-color: var(--color-background);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 900px) {
+    main {
+        align-self: end;
+        width: 100vw;
+        height: calc(92vh - 2px);
+    }
+}
+/* Home ------------------------------------------------------- */
+
+#section-home {
+    position: relative;
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.text-big-home {
+    font-family: "Jomhuria";
+    font-size: 55vw;
+    color: var(--color-text-secondary);
+    position: absolute;
+    line-height: 12.5vw;
+    margin-right: 2vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .text-big-home {
+        font-size: 90vw;
+        line-height: 20.7vw;
+    }
+}
+/* Sobre ------------------------------------------------------- */
+
+#section-about {
+    scroll-snap-align: start;
+    min-height: 98vh;
+    background-color: var(--color-background-tertiary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh 0;
+}
+
+.section-title {
+    font-family: "Jomhuria";
+    font-size: 6vw;
+    text-align: center;
+    color: var(--color-text-secondary);
+}
+
+.img-photo {
+    width: 17vw;
+    height: 17vw;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid var(--color-red-primary);
+}
+
+.div-content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+    width: 72vw;
+}
+
+.div-text-content {
+    width: 50vw;
+}
+
+.text-content {
+    font-family: "Jomhuria";
+    font-size: 2.4vw;
+    color: var(--color-text-secondary);
+}
+
+.text-emphasis {
+    color: var(--color-red-primary);
+}
+
+.text-content-title {
+    font-family: "Jomhuria";
+    text-align: center;
+    color: var(--color-red-primary);
+    font-size: 4vw;
+}
+
+.list-cards-techs {
+    display: flex;
+    width: 50vw;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+
+.card-tech {
+    background-color: var(--color-background-secondary);
+    border-radius: 10px;
+    padding: 1vw;
+    color: var(--color-text);
+    font-family: "Jomhuria";
+    border: 3px solid rgba(0,0,0,0);
+
+    display: flex;
+    flex-direction: column;
+    width: calc(12vw - 6px);
+    gap: 2vw;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+
+.card-tech:hover {
+    border-color: var(--color-red-primary);
+    background-color: var(--color-background);
+    color: var(--color-background-secondary);
+}
+
+.card-tech:hover .text-card-title {
+    color: var(--color-text);
+}
+
+.div-card-description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icon-tech {
+    font-size: 4vw;
+}
+
+.text-card-description {
+    font-size: 2vw;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+.text-card-title {
+    text-align: center;
+    font-size: 3.2vw;
+    line-height: 1.5vw;
+    color: var(--color-red-primary);
+    transition: .5s;
+}
+
+@media only screen and (max-width: 900px) {
+    .section-title {
+        font-size: 10vw;
+    }
+
+    .div-content-row {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .div-text-content {
+        text-align: center;
+        width: 80vw;
+    }
+
+    .text-content {
+        font-size: 5vw;
+    }
+
+    .text-content-title {
+        font-size: 7vw;
+    }
+
+    .list-cards-techs {
+        width: 80vw;
+    }
+
+    .card-tech {
+        width: 35vw;
+    }
+
+    .icon-tech {
+        font-size: 10vw;
+    }
+
+    .text-card-description {
+        font-size: 4vw;
+    }
+
+    .text-card-title {
+        font-size: 6vw;
+    }
+}
+
+/* Projetos ------------------------------------------------------- */
+
+#section-projects {
+    scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-list-projects-master {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: space-between;
+}
+
+.div-projects-master {
+    background-color: var(--color-background-secondary);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 35vw;
+    margin-top: 5vw;
+    padding: 1vw;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.div-projects-master:hover {
+    background-color: var(--color-background-tertiary);
+}
+
+.div-projects-master:hover .div-projects-text {
+    color: var(--color-background-secondary);
+}
+
+.div-projects-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    font-family: "Jomhuria";
+    color: var(--color-text);
+    transition: .5s;
+}
+
+.text-projects-title {
+    font-size: 4vw
+}
+
+.text-projects-content {
+    width: 70%;
+    font-size: 1.7vw;
+}
+
+.img-project-preview {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 8px;
+    border: 3px solid var(--color-red-primary);
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 900px) {
+    .div-projects-master {
+        width: 100%;
+    }
+
+    .img-project-preview {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .text-projects-title {
+        font-size: 8vw;
+    }
+
+    .text-projects-content {
+        font-size: 4vw;
+    }
+
+    .div-list-projects-master {
+        margin-bottom: 5vw;
+    }
+}
+
+/* Contato ------------------------------------------------------- */
+
+#section-contact {
+    scroll-snap-align: start;
+    min-height: 98vh;
+    background-color: var(--color-background-tertiary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vh 0;
+}
+
+#form-contact {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    align-self: center;
+}
+
+.label-form {
+    font-family: "Jomhuria";
+    font-size: 4vw;
+    width: 100%;
+    color: var(--color-background-secondary);
+}
+
+.input-form {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Jomhuria";
+    font-size: 3vw;
+    min-height: 5vh;
+    color: var(--color-text-secondary);
+    transition: .5s;
+    padding: 2px 8px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.input-form:focus {
+    outline: none;
+    background-color: var(--color-background-input-focus);
+}
+.input-form:hover {
+    background-color: var(--color-background-input-focus);
+}
+
+.input-textarea {
+    padding: 12px 8px;
+    resize: none;
+    height: 20vh;
+}
+
+.form-submit {
+    font-family: "Jomhuria";
+    font-size: 4vw;
+    line-height: 1vw;
+    padding: 20px 30px 15px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer; 
+    transition: .5s;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.form-submit:hover {
+    background-color: var(--color-text-input);
+    color: var(--color-text)
+}
+
+@media only screen and (min-width: 769px) {
+    .label-form {
+        font-size: 2.8vw;
+        line-height: 1vw;
+    }
+
+    #form-contact {
+        width: 35vw;
+    }
+
+    .input-form {
+        font-size: 1.8vw;
+        line-height: 0.8vw;
+    }
+
+    .form-submit {
+        font-size: 2.8vw;
+        line-height: 1vw;
+    }
 }

@@ -10,7 +10,7 @@ class Footer extends HTMLElement {
 
             <div id="footer-div-master">
                 <div id="footer-div-logo">
-                    <img id="footer-logo" src="./assets/img/logos/Logo-JV-Branco.svg">
+                    <img id="footer-logo" src="./assets/img/logos/Logo-JV-Branco.svg" alt="Logo RepHub">
                 </div>
 
                 <div id="footer-div-content">

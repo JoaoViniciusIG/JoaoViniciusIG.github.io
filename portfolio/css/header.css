@@ -2,8 +2,8 @@ header {
     position: absolute;
     z-index: 10;
     left: 0;
-    width: calc(12vw - 2px);
-    height: 100%;
+    width: 12vw;
+    height: 100vh;
     background-color: var(--color-background-secondary);
     border-right: 2px solid var(--color-border);
 
@@ -11,6 +11,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .header-img-logo {
@@ -18,17 +19,82 @@ header {
     margin-top: 20px;
 }
 
-.nav-header ul {
+#header-nav-container ul {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-header ul li {
+#header-nav-container ul li {
     font-family: "Jomhuria";
     font-size: 2.8vw;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 3vh;
+    line-height: 1.5vw;
+    padding: 2vh 0 1vh 0;
+    width: calc(12vw - 2px);
+    text-align: center;
+    transition: .5s;
+}
+
+#header-nav-container ul li a {
+    transition: .5s;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+#header-nav-container ul li:hover a {
+    color: var(--color-background-secondary);
+}
+
+#header-nav-container ul li:hover {
+    background-color: var(--color-background-tertiary);
+}
+
+.header-text-back {
+    font-family: "Jomhuria";
+    font-size: 2.8vw;
+    line-height: 1.5vw;
+    padding: 2vh 0 1vh 0;
     color: var(--color-text);
     letter-spacing: 2px;
     font-weight: 400;
-    margin-bottom: 3.5vh;
+    margin-bottom: 2vh;
+    width: calc(12vw - 2px);
+    text-align: center;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.header-text-back:hover {
+    color: var(--color-background-secondary);
+    background-color: var(--color-background-tertiary);
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        position: absolute;
+        width: calc(100vw - 40px);
+        height: 8vh;
+        flex-direction: row;
+        border: none;
+        border-bottom: 2px solid var(--color-border);
+        padding: 0 20px;
+    }
+
+    .header-img-logo {
+        margin: 0;
+    }
+
+    #header-nav-container ul li {
+        width: 100%;
+        font-size: 5vw;
+        margin: 3vh 0;
+        padding: 4vh 0 2vh 0 ;
+    }
+
+    .header-text-back {
+        display: none;
+    }
 }

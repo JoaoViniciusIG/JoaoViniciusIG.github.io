@@ -1,0 +1,160 @@
+#footer-div-master {
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    background-color: var(--color-background-secondary);
+    border-top: 2px solid var(--color-border);
+    padding: 10px 20px 10px 0;
+}
+
+#footer-div-logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    width: 70%;
+    max-width: 75px;
+}
+
+#footer-div-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-content-components {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div-content-registration {
+    width: 100%;
+}
+
+.footer-div-contact{
+    margin-bottom: 15px;
+}
+
+.footer-text-title {
+    color: var(--color-text);
+    font-size: 25px;
+    font-family: "Jomhuria";
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.footer-div-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    color: var(--color-icons);
+    font-size: 15px;
+}
+
+.cop-icon {
+    font-size: 10px;
+}
+
+.footer-registration-text {
+    color: var(--color-text);
+    font-size: 17px;
+    font-family: "Jomhuria";
+    font-weight: 200;
+}
+
+.footer-div-parceiros {
+    gap: 15px;
+    height: calc(100% - 30px);
+}
+
+.footer-table-tr {
+    justify-content:space-between;
+}
+
+.footer-div-parceiros tr td {
+    color: var(--color-text);
+    font-size: 25px;
+    font-family: "Jomhuria";
+    font-weight: 200;
+}
+
+.footer-a-icons {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 400px) {
+    #footer-div-logo {
+        width: 30%;
+    }
+
+    #footer-div-content {
+        width: 70%;
+        justify-content: center;
+    }
+
+    #footer-logo {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #footer-div-master {
+        padding: 20px 20px 20px 0;
+    }
+
+    
+    .div-content-components {
+        justify-content: flex-start !important;
+        gap: 10%;
+    }
+
+    #footer-div-logo {
+        width: 15%;
+    }
+
+    #footer-div-content {
+        width: 85%;
+        justify-content: center;
+    }
+
+    #footer-logo {
+        width: 50%;
+    }
+
+    .footer-text-title {
+        font-size: 55px;
+    }
+
+    .footer-icons {
+        color: var(--color-icons);
+        font-size: 25px;
+    }
+
+    .footer-registration-text {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .footer-div-parceiros {
+        height: calc(100% - 60px);
+    }
+
+    .cop-icon {
+        font-size: 14px;
+    }
+
+    .footer-div-parceiros tr td {
+        font-size: 30px;
+    }
+}

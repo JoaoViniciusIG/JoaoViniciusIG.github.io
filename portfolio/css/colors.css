@@ -1,6 +1,13 @@
 :root {
     --color-background: #85725F;
     --color-background-secondary: #332D27;
+    --color-background-tertiary: #FAE1C0;
     --color-text: #FFF;
+    --color-icons: #FFF;
     --color-border: #FFF;
+    --color-text-secondary: #332D27;
+    --color-text-input: #787878;
+    --color-background-input: #FFF;
+    --color-background-input-focus: #eaeaea;
+    --color-red-primary: #8A0015;
 }

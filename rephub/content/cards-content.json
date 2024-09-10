@@ -96,18 +96,6 @@
         "imageSource": "default"
     },
     {
-        "id": 1009,
-        "type": "normal",
-        "name": "Camille Patricio",
-        "projectName": "",
-        "projectCategory": "",
-        "counterName": "camillepatricio",
-        "instagramUrl": "",
-        "githubUrl": "https://github.com/paganicamille",
-        "projectUrl": "",
-        "imageSource": "default"
-    },
-    {
         "id": 1010,
         "type": "normal",
         "name": "Carlos Eduardo",
@@ -180,18 +168,6 @@
         "imageSource": "1015"
     },
     {
-        "id": 1016,
-        "type": "normal",
-        "name": "João Oliveira",
-        "projectName": "NA",
-        "projectCategory": "NA",
-        "counterName": "joaooliveira",
-        "instagramUrl": "",
-        "githubUrl": "https://github.com/joliveira-0509",
-        "projectUrl": "",
-        "imageSource": "default"
-    },
-    {
         "id": 1017,
         "type": "normal",
         "name": "Júlia de Abreu",
@@ -219,12 +195,12 @@
         "id": 1019,
         "type": "normal",
         "name": "Lavínia Stein",
-        "projectName": "NA",
-        "projectCategory": "NA",
+        "projectName": "Cooking",
+        "projectCategory": "Receitas",
         "counterName": "laviniastein",
         "instagramUrl": "",
-        "githubUrl": "",
-        "projectUrl": "",
+        "githubUrl": "https://github.com/steinlavinia",
+        "projectUrl": "https://steinlavinia.github.io/projeto2/siteCooking/index.html",
         "imageSource": "default"
     },
     {
@@ -273,18 +249,6 @@
         "instagramUrl": "",
         "githubUrl": "https://github.com/luzzzmiranda",
         "projectUrl": "https://luzzzmiranda.github.io/frontend_2bimestre/culinariaVegana/",
-        "imageSource": "default"
-    },
-    {
-        "id": 1024,
-        "type": "normal",
-        "name": "Marcos Vinícius",
-        "projectName": "NA",
-        "projectCategory": "NA",
-        "counterName": "marcosvinicius",
-        "instagramUrl": "",
-        "githubUrl": "",
-        "projectUrl": "",
         "imageSource": "default"
     },
     {
@@ -338,18 +302,6 @@
     {
         "id": 1029,
         "type": "normal",
-        "name": "Maria Fernanda",
-        "projectName": "Blog CarePet",
-        "projectCategory": "Natureza",
-        "counterName": "mariafernanda",
-        "instagramUrl": "",
-        "githubUrl": "https://github.com/fernandaoooo",
-        "projectUrl": "https://fernandaoooo.github.io/front-end-2/projetoMobile/",
-        "imageSource": "default"
-    },
-    {
-        "id": 1030,
-        "type": "normal",
         "name": "Nathan Teixeira",
         "projectName": "Viagem do Gurismo",
         "projectCategory": "Viagens",
@@ -357,22 +309,22 @@
         "instagramUrl": "https://www.instagram.com/nathanteixeira55/",
         "githubUrl": "https://github.com/NathanTLopes",
         "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/",
-        "imageSource": "1030"
+        "imageSource": "1029"
     },
     {
-        "id": 1031,
+        "id": 1030,
         "type": "normal",
         "name": "Sofia Melo",
-        "projectName": "NA",
-        "projectCategory": "NA",
+        "projectName": "Indicações de Livros",
+        "projectCategory": "Livros",
         "counterName": "sofiamelo",
         "instagramUrl": "",
         "githubUrl": "https://github.com/melosofia",
-        "projectUrl": "https://nathantlopes.github.io/Sites/Viagem%20do%20Gurismo/",
+        "projectUrl": "https://melosofia.github.io/PagInicial/projeto2/index.html",
         "imageSource": "default"
     },
     {
-        "id": 1032,
+        "id": 1031,
         "type": "normal",
         "name": "Max Costa",
         "projectName": "GameArts",

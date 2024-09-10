@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                 </div>
 
                 <a class="header-a" href="/">
-                    <img class="header-logo" src="./assets/img/logos/Logo-JV-Branco.svg">
+                    <img class="header-logo" src="./assets/img/logos/Logo-JV-Branco.svg" alt="Logo RepHub">
                 </a>
 
 

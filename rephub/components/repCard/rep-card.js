@@ -114,7 +114,7 @@ class RepCard extends HTMLElement {
             <link rel="stylesheet" href="./components/repCard/rep-card.css"/>
 
             <div class="container-master" onclick="accessCard('${counterName}', '${projectUrl}')">
-                <img class="img-card ${cardImageClass}" src="./assets/img/card-img/card-${imageSource}-img.png"/>
+                <img class="img-card ${cardImageClass}" src="./assets/img/card-img/card-${imageSource}-img.png" alt="Imagem Projeto ${name}"/>
 
                 <div class="div-content">
                     ${cardContent}
