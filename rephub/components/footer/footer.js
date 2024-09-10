@@ -20,13 +20,13 @@ class Footer extends HTMLElement {
                                 <h2 class="footer-text-title">Contatos pessoais:</h2>
 
                                 <div class="footer-div-icons">
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://www.instagram.com/joao_vinicius1222/">
                                         <img class="footer-icons" src="./assets/img/icons/instagram.svg"/>
                                     </a>
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://github.com/JoaoViniciusG/">
                                         <img class="footer-icons" src="./assets/img/icons/github.svg"/>
                                     </a>
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://twitter.com/Joao_vinicius99/">
                                         <img class="footer-icons" src="./assets/img/icons/twitter.svg"/>
                                     </a>
                                 </div>
@@ -36,13 +36,13 @@ class Footer extends HTMLElement {
                                 <h2 class="footer-text-title">Contatos IFRO:</h2>
 
                                 <div class="footer-div-icons">
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://www.instagram.com/ifro_oficial/">
                                         <img class="footer-icons" src="./assets/img/icons/instagram.svg"/>
                                     </a>
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://www.facebook.com/ifrondonia/">
                                         <img class="footer-icons" src="./assets/img/icons/facebook.svg"/>
                                     </a>
-                                    <a class="footer-a-icons">
+                                    <a class="footer-a-icons" href="https://twitter.com/ifrondonia/">
                                         <img class="footer-icons" src="./assets/img/icons/twitter.svg"/>
                                     </a>
                                 </div>

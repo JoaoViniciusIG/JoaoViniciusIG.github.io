@@ -127,7 +127,7 @@
         "projectCategory": "Cafeteria",
         "counterName": "joaoinglez",
         "instagramUrl": "",
-        "githubUrl": "https://github.com/JoaoInglez387",
+        "githubUrl": "https://joaoinglez387.github.io/Sites/Coffee%20Hut/index.html",
         "projectUrl": "",
         "imageSource": "1012"
     },
@@ -166,6 +166,18 @@
         "githubUrl": "https://github.com/lopes-vh",
         "projectUrl": "https://lopes-vh.github.io/componentes/",
         "imageSource": "1015"
+    },
+    {
+        "id": 1016,
+        "type": "normal",
+        "name": "João Oliveira",
+        "projectName": "Git",
+        "projectCategory": "Tecnologia",
+        "counterName": "joaooliveira",
+        "instagramUrl": "",
+        "githubUrl": "https://github.com/joliveira-0509",
+        "projectUrl": "https://joliveira-0509.github.io/index/atividade/index.html",
+        "imageSource": "default"
     },
     {
         "id": 1017,
