@@ -1,0 +1,73 @@
+header {
+    height: 100px;
+    background-color: #008028;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container-menu {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-menu>li {
+    position: relative;
+}
+
+.container-submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+    padding: 0 10px;
+    position: absolute;
+    margin-top: 40px;
+    gap: 10px;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease-out;
+    background-color: #00571b;
+    border-radius: 0 0 10px 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container-menu>li::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    width: 1px;
+    background-color: white;
+    right: -10px;
+} 
+
+.container-menu>li:hover .container-submenu {
+    height: 10vh;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-menu {
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+}
+
+.link-sub-menu {
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #D9D9D9;
+}
