@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.headerContainer {
+    width: 100%;
+    background: linear-gradient(10deg, red 60%, white 60.5%, white 65%, red 65.5%, red 70%, white 70.5%, white 75%,red 75.5%, red 80%, blue 80.5%);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #FFF;
+}
+
+.ulHeader {
+    display: flex;
+    gap: 30px;
+}
+
+.ulHeader li {
+    color: black;
+    font-family: "Poppins";
+    list-style: none;
+    transition: .5s;
+    font-size: 1.1vw;
+}
+
+.ulHeader li:hover {
+    text-decoration: underline;
+}
